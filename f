@@ -2454,9 +2454,10 @@ function playRotxHubIntro()
     local introSound = Instance.new("Sound", intro)
     introSound.Name = "RotxIntroAudio"
     introSound.SoundId = "rbxassetid://110556630035935"
-    introSound.Volume = 0.8
+    introSound.Volume = 1.5
     introSound.PlaybackSpeed = 1
     introSound.Looped = false
+    introSound.TimePosition = 14
 
     local aura = Instance.new("Frame", intro)
     aura.AnchorPoint = Vector2.new(0.5, 0.5)
