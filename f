@@ -2458,6 +2458,7 @@ function playRotxHubIntro()
     introSound.PlaybackSpeed = 1
     introSound.Looped = false
     introSound.TimePosition = 14
+    task.wait(10)
 
     local aura = Instance.new("Frame", intro)
     aura.AnchorPoint = Vector2.new(0.5, 0.5)
